@@ -1,0 +1,75 @@
+#login{
+  background: #9f9f9f;
+  display: block;
+  padding: 15px;
+  border-radius: 15px;
+  min-width: 500px;
+}
+#login label{
+  font-size: 20px;
+  /*border: green solid;*/
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 450px;
+}
+#login input{
+  float: right;
+}
+#login input[type=submit], #login input[type=reset]{
+  float: none;
+  width: 225px;
+  font-size: 25px;
+}
+#login a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  color: rgba(250, 0, 0, 0.5);
+  border-radius: 20px;
+}
+#login a:hover{
+  background: #ccc;
+}
+
+.layer table{
+  margin: auto;
+  width: 500px;
+  text-align: justify;
+}
+.layer table th, .layer table td{
+  font-size: 30px;
+  padding: 10px;
+}
+th{
+  background: #5d8edd;
+}
+td{
+  background: #dd5c5c;
+}
+#sign {
+  font-size: 30px;
+}
+#sign legend{
+  font-size: 35px;
+  text-align: center;
+}
+#sign fieldset{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+#sign label{
+  min-width: 700px;
+  display: block;
+}
+#sign input, #sign select{
+  float: right;
+  width: 350px;
+}
+#sign input[type=submit], #sign input[type=reset]{
+  float: none;
+}
+#input-buttons{
+  margin: auto;
+}
